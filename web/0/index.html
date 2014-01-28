@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+  <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+    <title>ReadMe for Assignment 0</title> 
+  </head> 
+ 
+  <body>
+ 
+    <h1>ReadMe for Assignment 0 - SQL the PRQL</h1>
+	<h4><a href ="../">Home</a></h4>
+    <p>
+      <a href="/0/oursweetwebpage.html">Assignment 0</a>
+    </p>
+
+	<h2>Assignment Description</h2>
+    <p>
+		For this assignment we created an Amazon Web Services account, and set up a server instance to be used for the duration of this class.
+		After we launched the server instance we ran several commands to set up programs such as mySQL and PHP. 
+		We also configured our individual development environments to be able to connect via SSH and FTP to our AWS instance
+		Finally we created a sample webpage to demonstrate the success of our setup.
+    </p>
+	<h2>Individual Contributions</h2>
+	<p>
+		<strong>Main Server Setup</strong>: Ciaran and Ruka<br>
+		<strong>Individual Server Setup</strong>: Amelia, Jeremy and Thomas
+	</p>
+	<h2>Is the Web Dead?</h2>
+	<form method="POST" name="wordcount">
+		<script language="JavaScript">
+
+		function countit(){
+
+		/*Word count script
+		By JavaScript Kit (http://javascriptkit.com)
+		Over 400+ free scripts here!
+		*/
+
+		var formcontent=document.wordcount.wordcount2.value
+		formcontent=formcontent.split(" ")
+		document.wordcount.wordcount3.value=formcontent.length
+		}
+		</script>
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+			  <td width="100%"><textarea rows="12" name="wordcount2" cols="60" wrap="virtual"></textarea></td>
+			</tr>
+			<tr>
+			  <td width="100%"><div align="right"><p><input type="button" value="Calculate Words"
+			  onClick="countit()"> <input type="text" name="wordcount3" size="20"></p>
+			  <div align="center"><center><p><font face="arial" size="-2">This free script provided by</font>
+			  <font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+			  Kit</a></font></p>
+			  </center></div></div></td>
+			</tr>
+		</table>
+	</form>
+  </body>
+
+</html>
