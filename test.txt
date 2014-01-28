@@ -1,1 +1,2 @@
+This is another test for git.
 This is just a test file. 
