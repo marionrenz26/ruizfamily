@@ -1,0 +1,12 @@
+git tutorial notes
+
+(while in a)
+git merge b:
+source is working branch (a)
+specify merge target into (b)
+
+gvimdiff as comparison tool
+
+create new branch : staging
+test out commits on staging
+if they work then send to master
